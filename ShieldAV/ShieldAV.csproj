@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ShieldAV</AssemblyName>
+    <RootNamespace>ShieldAV</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0</Version>
+    <Company>ShieldAV</Company>
+    <Product>ShieldAV Antivirus</Product>
+    <Description>Lightweight antivirus scanner using MalwareBazaar</Description>
+
+    <!-- Self-contained: bundles .NET 8 runtime, no install needed on target PC -->
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <!-- Trim unused framework code to reduce size (~30% smaller) -->
+    <PublishTrimmed>false</PublishTrimmed>
+
+    <!-- ReadyToRun: pre-compile to native for faster startup -->
+    <PublishReadyToRun>true</PublishReadyToRun>
+
+    <!-- Do NOT use SingleFile — installer deploys all files -->
+    <PublishSingleFile>false</PublishSingleFile>
+
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

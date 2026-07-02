@@ -1,0 +1,15 @@
+ShieldAV Antivirus - Freeware Lizenz
+=====================================
+
+Copyright (c) 2026 ShieldAV
+
+Diese Software wird kostenlos zur Verfügung gestellt.
+Sie darf frei verwendet, kopiert und weitergegeben werden,
+solange dieser Lizenzhinweis erhalten bleibt.
+
+Die Software wird "wie sie ist" bereitgestellt, ohne jegliche
+Garantie. Der Autor haftet nicht für Schäden, die durch die
+Nutzung dieser Software entstehen.
+
+ShieldAV ist kein vollständiger Ersatz für kommerzielle
+Antivirensoftware. Nutzen Sie es auf eigene Verantwortung.
